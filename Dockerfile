@@ -9,7 +9,7 @@ ENV ANDROID_HOME "${ANDROID_SDK_ROOT}"
 ENV PATH "$PATH:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN yum install -y unzip
+RUN yum install -y unzip && yum clean all
 #RUN locale-gen en_US.UTF-8
 #ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
