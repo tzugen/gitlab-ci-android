@@ -1,6 +1,6 @@
 add-ons;addon-google_apis-google-24
 build-tools;30.0.3
-emulator;32.1.11
+emulator
 extras;android;m2repository
 extras;google;m2repository
 extras;google;google_play_services
